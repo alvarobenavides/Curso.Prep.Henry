@@ -3,16 +3,22 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
+  array [1, 2, 3];
+  return array [0]
 }
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  array [1, 2, 3];
+  return array [array.length -1]
 }
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  array [1, 2, 3];
+  return array.length
 }
 
 function incrementarPorUno(array) {
@@ -20,12 +26,20 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  var suma = [];
+  for (var i=0; i< array.length; i++){
+  suma [i] = array [i] +1;
+  }
+  return suma
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+  array [1, 2, 3];
+  array.push (elemento);
+  return array
 }
 
 function agregarItemAlComienzoDelArray(array, elemento) {
@@ -33,6 +47,9 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
+  array [1, 2, 3]
+  array.unshift (elemento);
+  return array
 }
 
 function dePalabrasAFrase(palabras) {
@@ -41,6 +58,11 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  var frase = palabras
+  for (var i=0; i<palabras.length; i++){
+    frase [i] = frase + '' + palabras [i];
+  }
+  return frase
 }
 
 function arrayContiene(array, elemento) {
