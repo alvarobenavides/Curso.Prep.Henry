@@ -1,0 +1,2 @@
+for es una expresion utilizada para realizar un bucle, es decir, un forma rapida y sencilla de automatizar una tarea especifica
+&&, ||, ! son operadores logicos, es decir un forma de poner en conjunto dos expresiones en una misma variable. && evalua ambas expresiones y si ambas son ciertas devuelve true. || analiza si alguna de las dos expresiones cumple con la condicion prevista. FInalmente ! se usa para deolver el opuesto de lo planteado, por ejemplo si correspondia true, devolvera false 
